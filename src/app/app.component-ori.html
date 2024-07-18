@@ -1,0 +1,42 @@
+<mat-sidenav-container fullscreen>
+  <ng-container *ngIf="!isMobileScreen">
+    <mat-toolbar color="primary">
+      <a mat-button> <mat-icon>person_add</mat-icon>Register </a>
+      <a mat-button> <mat-icon>account_circle</mat-icon>Login </a>
+    </mat-toolbar>
+  </ng-container>
+  
+  <ng-container *ngIf="isMobileScreen">
+    <mat-sidenav-container class="example-container">
+      <mat-sidenav #sidenav mode="over" opened>
+        <mat-nav-list>
+          <mat-list-item>
+            <mat-icon mat-list-icon>home</mat-icon>
+            <span mat-line>Home</span>
+          </mat-list-item>
+          <mat-list-item>
+            <mat-icon mat-list-icon>info</mat-icon>
+            <span mat-line>About</span>
+          </mat-list-item>
+          <mat-list-item>
+            <mat-icon mat-list-icon>contact_mail</mat-icon>
+            <span mat-line>Contact</span>
+          </mat-list-item>
+        </mat-nav-list>
+      </mat-sidenav>
+  
+      <mat-sidenav-content>
+        <mat-toolbar color="primary">
+          <button mat-icon-button (click)="sidenav.toggle()">
+            <mat-icon>menu</mat-icon>
+          </button>
+          <span>My Application</span>
+        </mat-toolbar>
+        <!-- Add your content here -->
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+  </ng-container>
+
+</mat-sidenav-container>
+
+

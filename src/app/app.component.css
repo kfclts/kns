@@ -1,0 +1,13 @@
+.logo {
+  height: 40px;
+  /* 调整这个高度以适应你的设计 */
+  margin-right: 16px;
+  /* 添加一些右边距离使其与后续元素分开 */
+}
+
+.center-logo {
+  margin: 0 auto;
+}
+
+
+
