@@ -1,7 +1,7 @@
 <mat-sidenav-container fullscreen>
   <mat-sidenav #sidenav mode="over">
     <mat-nav-list (click)="sidenav.close()">
-      <a mat-list-item routerLink="/">
+      <a mat-list-item routerLink="">
         <mat-icon>library_books</mat-icon>
         <span>Courses</span>
       </a>
@@ -9,11 +9,11 @@
         <mat-icon>question_answer</mat-icon>
         <span>About</span>
       </a>
-      <a mat-list-item routerLink="/">
+      <a mat-list-item routerLink="products">
         <mat-icon>person_add</mat-icon>
         <span>Register</span>
       </a>
-      <a mat-list-item routerLink="/">
+      <a mat-list-item routerLink="contact">
         <mat-icon>account_circle</mat-icon>
         <span>Login</span>
       </a>
@@ -32,16 +32,16 @@
         <a mat-button [matMenuTriggerFor]="dropdown">Screens</a>
         <mat-menu #dropdown>
           <button mat-menu-item routerLink="/">Courses</button>
-          <button mat-menu-item routerLink="about">About</button>
+          <button mat-menu-item routerLink="/about">About</button>
         </mat-menu>
-        <a mat-button routerLink="/">
+        <a mat-button routerLink="/products">
           <mat-icon>person_add</mat-icon>Register
         </a>
-        <a mat-button routerLink="/">
+        <a mat-button routerLink="/contact">
           <mat-icon>account_circle</mat-icon>Login
         </a>
       </ng-container>
     </mat-toolbar>
-    <router-outlet></router-outlet>
+    <router-outlet />
   </mat-sidenav-content>
 </mat-sidenav-container>
