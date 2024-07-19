@@ -29,16 +29,16 @@
       </ng-container>
       <img src="kns-logo-bright@2x.png" alt="Logo" class="logo" [class.center-logo]="isMobileScreen">
       <ng-container *ngIf="!isMobileScreen">
-        <a mat-button [matMenuTriggerFor]="dropdown">Screens</a>
+        <a mat-button [matMenuTriggerFor]="dropdown">Products</a>
         <mat-menu #dropdown>
           <button mat-menu-item routerLink="/">Courses</button>
-          <button mat-menu-item routerLink="/about">About</button>
+          <button mat-menu-item routerLink="/Products">About</button>
         </mat-menu>
-        <a mat-button routerLink="/products">
-          <mat-icon>person_add</mat-icon>Register
+        <a mat-button routerLink="/about">
+          <mat-icon>account_circle</mat-icon>About
         </a>
         <a mat-button routerLink="/contact">
-          <mat-icon>account_circle</mat-icon>Login
+          <mat-icon>contact_support</mat-icon>Contact
         </a>
       </ng-container>
     </mat-toolbar>
