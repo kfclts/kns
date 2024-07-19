@@ -1,6 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
 import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
 import { MatSidenav } from '@angular/material/sidenav';
+import { register } from 'swiper/element/bundle'
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,9 @@ export class AppComponent {
   @ViewChild('sidenav') sidenav!: MatSidenav;
   isMobileScreen: boolean = false;
 
-  constructor(private breakpointObserver: BreakpointObserver) {}
+  constructor(private breakpointObserver: BreakpointObserver) {
+    register()
+  }
 
   ngOnInit() {
     this.breakpointObserver

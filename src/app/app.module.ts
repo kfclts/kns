@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -17,7 +17,6 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { routes } from './app.route';
 import { MatCardModule } from '@angular/material/card';
-
 
 @NgModule({
   declarations: [
@@ -44,6 +43,7 @@ import { MatCardModule } from '@angular/material/card';
     provideAnimationsAsync(),
     provideRouter(routes)
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }

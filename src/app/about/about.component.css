@@ -1,25 +1,31 @@
 .container {
-    padding: 20px;
-  }
-  
-  .mat-card {
-    margin-bottom: 20px; /* 为每个卡片底部添加20px的间距 */
-  }
-  
-  .text-center {
-    text-align: center;
-  }
-  
-  .mat-card-title {
-    margin-bottom: 10px;
-  }
-  
-  .mat-list-item {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .card-spacing {
-    margin-bottom: 20px; /* 为每个卡片底部添加20px的间距 */
-  }
-  
+  padding: 20px;
+}
+
+.mat-card {
+  margin-bottom: 20px;
+  /* 为每个卡片底部添加20px的间距 */
+}
+
+.my-card {
+  max-width: 800px;
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mat-card-title {
+  margin-bottom: 10px;
+}
+
+.mat-list-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-spacing {
+  margin-bottom: 20px;
+  /* 为每个卡片底部添加20px的间距 */
+}

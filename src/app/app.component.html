@@ -27,9 +27,9 @@
           <mat-icon>menu</mat-icon>
         </button>
       </ng-container>
-      <img src="kns-logo-bright@2x.png" alt="Logo" class="logo" [class.center-logo]="isMobileScreen">
+      <a routerLink="/"><img src="kns-logo-bright@2x.png" alt="Logo" class="logo" [class.center-logo]="isMobileScreen"></a>
       <ng-container *ngIf="!isMobileScreen">
-        <a mat-button [matMenuTriggerFor]="dropdown">Products</a>
+        <a mat-button [matMenuTriggerFor]="dropdown">Products<mat-icon>expand_more</mat-icon></a>
         <mat-menu #dropdown>
           <button mat-menu-item routerLink="/">Courses</button>
           <button mat-menu-item routerLink="/Products">About</button>
