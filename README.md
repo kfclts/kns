@@ -4,7 +4,7 @@
 - [ ] Homepage (swiper w/ Parallax?)
 - [X] scroll down do not hide toolbar
 - [X] Center the `<mat-card>` in the about components
-- [ ] Bottom overflow
+- [X] Bottom overflow
 
 
 # KnsWoStandalone

@@ -1,5 +1,0 @@
-- [ ] Revise the Picture Size
-- [ ] Add Product Page
-- [ ] Homepage (swiper w/ Parallax?)
-- [X] scroll down do not hide toolbar
-- [ ] Center the `<mat-card>` in the about components
