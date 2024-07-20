@@ -1,3 +1,13 @@
+<div class="search-bar">
+  <!-- 搜索条的实现保留，现在只显示选中的标签 -->
+  <mat-chip-set>
+    <mat-chip class="main-color" *ngFor="let tag of selectedTags" removable (removed)="removeTag(tag)">
+      {{ tag }}
+      <mat-icon matChipRemove>cancel</mat-icon>
+    </mat-chip>
+  </mat-chip-set>
+</div>
+
 <div class="grid-container">
   <div *ngFor="let product of filteredProducts" class="grid-item">
     <mat-card>

@@ -47,15 +47,23 @@
 }
 
 .main-color {
-  background-color: #09472c !important;
+  background-color: #07930b  !important;
   color: #fff !important;
 }
 
-mat-chip {
-  cursor: pointer; /* 显示手形光标表示可点击 */
-  margin: 4px;
+mat-chip-selected {
+  background-color: #09472c!important; 
 }
 
 mat-chip:hover {
-  background-color: #c8e6c9 !important; /* 悬停时改变背景色 */
+  background-color: #09472c!important; /* 悬停时改变背景色 */
+  cursor: pointer!important; 
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.mat-chip {
+  margin: 4px;
 }
