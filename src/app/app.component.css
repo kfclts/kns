@@ -9,5 +9,14 @@
   margin: 0 auto;
 }
 
+.sidenav-content {
+  padding-top: 64px; /* Adjust this value based on the actual height of your toolbar */
+}
 
-
+.fixed-toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* High z-index to keep toolbar above other content */
+}

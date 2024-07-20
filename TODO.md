@@ -1,4 +1,4 @@
-1. Revise the Picture Size
-2. Add Product Page
-3. Homepage (swiper w/ Parallax?)
-4. scroll down donot hide toolbar
+- [ ] Revise the Picture Size
+- [ ] Add Product Page
+- [ ] Homepage (swiper w/ Parallax?)
+- [X] scroll down do not hide toolbar

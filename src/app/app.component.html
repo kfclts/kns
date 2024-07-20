@@ -20,8 +20,8 @@
     </mat-nav-list>
   </mat-sidenav>
 
-  <mat-sidenav-content>
-    <mat-toolbar color="primary">
+  <mat-sidenav-content class="sidenav-content">
+    <mat-toolbar color="primary" class="fixed-toolbar">
       <ng-container *ngIf="isMobileScreen">
         <button mat-icon-button (click)="sidenav.toggle()">
           <mat-icon>menu</mat-icon>
@@ -31,8 +31,8 @@
       <ng-container *ngIf="!isMobileScreen">
         <a mat-button [matMenuTriggerFor]="dropdown">Products<mat-icon>expand_more</mat-icon></a>
         <mat-menu #dropdown>
-          <button mat-menu-item routerLink="/">Courses</button>
-          <button mat-menu-item routerLink="/Products">About</button>
+          <button mat-menu-item routerLink="/">Valve Balls</button>
+          <button mat-menu-item routerLink="/Products">Sanitary Fittings</button>
         </mat-menu>
         <a mat-button routerLink="/about">
           <mat-icon>account_circle</mat-icon>About
