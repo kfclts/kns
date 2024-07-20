@@ -1,0 +1,61 @@
+.grid-container {
+  display: grid;
+  grid-gap: 20px;
+  padding: 10px;
+}
+
+/* 默认为1列 */
+.grid-container {
+  grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+}
+
+/* 如果屏幕宽度超过600px，显示2列 */
+@media (min-width: 650px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fill, minmax(40%, 2fr));
+  }
+}
+
+/* 如果屏幕宽度超过750px，显示3列 */
+@media (min-width: 750px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fill, minmax(30%, 3fr));
+  }
+}
+
+@media (min-width: 1000px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fill, minmax(25%, 4fr));
+  }
+}
+
+.grid-item {
+  max-width: 300px;
+  /* 每个item的最大宽度 */
+  margin: 0 auto;
+  /* 居中显示 */
+}
+
+.mat-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  /* 允许内容换行 */
+  gap: 8px;
+  /* 设置按钮之间和行间的间隔 */
+  margin: 0 -8px;
+  /* 可选，用于确保卡片边缘与按钮对齐 */
+}
+
+.main-color {
+  background-color: #09472c !important;
+  color: #fff !important;
+}
+
+mat-chip {
+  cursor: pointer; /* 显示手形光标表示可点击 */
+  margin: 4px;
+}
+
+mat-chip:hover {
+  background-color: #c8e6c9 !important; /* 悬停时改变背景色 */
+}

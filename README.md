@@ -5,7 +5,8 @@
 - [X] scroll down do not hide toolbar
 - [X] Center the `<mat-card>` in the about components
 - [X] Bottom overflow
-- [ ] Enrich Homepage
+- [X] Enrich Homepage
+- [ ] Bug: when press sidenav, valve ball or ... the side nav will not diappear automatically
 
 
 # KnsWoStandalone

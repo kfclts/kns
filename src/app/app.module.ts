@@ -18,6 +18,9 @@ import { ContactComponent } from './contact/contact.component';
 import { routes } from './app.route';
 import { MatCardModule } from '@angular/material/card';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { ValveBallsComponent } from './products/valve-balls/valve-balls.component';
+import { SanitaryFittingsComponent } from './products/sanitary-fittings/sanitary-fittings.component';
+import { MatChipsModule } from '@angular/material/chips';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,9 @@ import { MatExpansionModule } from '@angular/material/expansion';
     ProductsComponent,
     AboutComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    ValveBallsComponent,
+    SanitaryFittingsComponent
   ],
   imports: [
     BrowserModule,
@@ -39,7 +44,8 @@ import { MatExpansionModule } from '@angular/material/expansion';
     MatMenuModule,
     MatButtonModule,
     MatCardModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatChipsModule
   ],
   providers: [
     provideAnimationsAsync(),

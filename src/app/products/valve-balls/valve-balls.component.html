@@ -1,0 +1,18 @@
+<div class="product-grid">
+    <mat-card *ngFor="let group of groupedProducts">
+      <mat-card-header>
+        <mat-card-title>{{ group.name }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <div *ngFor="let product of group.products" class="product-detail">
+          <img [src]="product.photo" [alt]="product.name" style="width: 100%; max-height: 200px; object-fit: cover;">
+          <div>
+            <div><strong>Code:</strong> {{ product.code }}</div>
+            <div><strong>Tube Size:</strong> {{ product.tubeSize }}</div>
+            <div><strong>Tags:</strong> <span *ngFor="let tag of product.tag">{{ tag }}</span></div>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  
