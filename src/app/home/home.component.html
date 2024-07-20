@@ -1,24 +1,52 @@
-
-
-
 <swiper-container
+  style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+  class="mySwiper"
+  speed="2000"
+  parallax="true"
   pagination="true"
-  navigation="true"
+  pagination-clickable="true"
   autoplay-delay="2500"
   loop="true"
-  effect="coverflow" grab-cursor="true" centered-slides="true"
-  slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
-    coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true"
-
 >
-  <!-- <swiper-slide *ngFor="let img of images">
-    <img [src]="img" alt="Slide image">
-  </swiper-slide> -->
-  <swiper-slide><img src="banner/DSC_0012.JPG"></swiper-slide>
-  <swiper-slide><img src="banner/Sanitary-Tube-Fittings.jpg"></swiper-slide>
-  <swiper-slide><img src="banner/UNION-FITTINGS.JPG"></swiper-slide>
-  <swiper-slide><img src="banner/TRI-CLAMP-FITTINGS-2.JPG"></swiper-slide>
+  <!-- <div
+    slot="container-start"
+    class="parallax-bg"
+    style="
+      background-image: url(https://swiperjs.com/demos/images/nature-1.jpg);
+    "
+    data-swiper-parallax="-23%"
+  ></div> -->
+
+  <swiper-slide class="banner-height" style="background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)),url(banner/DSC_0012.png);">
+    <div class="title gray-text" data-swiper-parallax="-5000"><span class="bold-blue">K</span>ey Quality Products</div>
+    <div class="subtitle gray-text" data-swiper-parallax="-1000">Over <span class="red-text font-size-35">99%</span> Yield Rate</div>
+    <div class="text" data-swiper-parallax="-100">
+      <p class="gray-bg">
+        We enhance the precision of our products with strict quality control to ensure that every item delivered to you excels in performance.
+      </p>
+    </div>
+  </swiper-slide>
+  <swiper-slide class="banner-height" style="background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)), url(banner/Sanitary-Tube-Fittings.jpg);">
+    <div class="title black-text" data-swiper-parallax="-5000"><span class="bold-blue">N</span>iche Customization</div>
+    <div class="subtitle black-text" data-swiper-parallax="-1000">Tailored to Customer Needs</div>
+    <div class="text" data-swiper-parallax="-100">
+      <p class="gray-bg">
+        Providing flexible customization and assisting customers in meeting their product requirements is our mission.
+      </p>
+    </div>
+  </swiper-slide>
+  <swiper-slide class="banner-height" style="background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)),url(banner/swift-delivery.jpg);">
+    <div class="title black-text" data-swiper-parallax="-5000"><span class="bold-blue">S</span>wift Delivery</div>
+    <div class="subtitle black-text" data-swiper-parallax="-1000">Expedited Service, Every Time</div>
+    <div class="text" data-swiper-parallax="-100">
+      <p class="gray-bg">
+        We prioritize rapid processing and delivery, ensuring that every order reaches you faster without compromising quality. Our commitment to speed transforms the way you receive products, making efficiency a standard part of your experience.
+      </p>
+    </div>
+  </swiper-slide>
 </swiper-container>
+
+
 
 <div class="content">
   <p>Good</p>
