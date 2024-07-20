@@ -1,5 +1,13 @@
 .container {
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .my-card {
+    width: 95%; /* 在较小屏幕上增加宽度，以便更好地适应屏幕 */
+  }
 }
 
 .mat-card {
