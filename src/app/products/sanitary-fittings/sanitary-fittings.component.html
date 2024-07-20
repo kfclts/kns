@@ -1,5 +1,8 @@
 <div class="search-bar">
-  <!-- 搜索条的实现保留，现在只显示选中的标签 -->
+  <mat-form-field appearance="fill">
+    <mat-label>Search Products</mat-label>
+    <input matInput placeholder="Type to search..." (input)="applySearch($event)">
+  </mat-form-field>
   <mat-chip-set>
     <mat-chip class="main-color" *ngFor="let tag of selectedTags" removable (removed)="removeTag(tag)">
       {{ tag }}

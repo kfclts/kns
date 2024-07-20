@@ -11,6 +11,7 @@ export class SanitaryFittingsComponent implements OnInit {
   products: Product[] = [];
   filteredProducts: Product[] = [];
   selectedTags: string[] = []; // 存储选中的标签
+  searchQuery: string = ''; // Stores the search query
 
   constructor(private productService: ProductService) { }
 
@@ -35,12 +36,18 @@ export class SanitaryFittingsComponent implements OnInit {
   }
 
   applyFilters(): void {
-    if (this.selectedTags.length > 0) {
-      this.filteredProducts = this.products.filter(product =>
-        this.selectedTags.every(tag => product.tag.includes(tag))
-      );
-    } else {
-      this.filteredProducts = this.products;
-    }
+    this.filteredProducts = this.products.filter(product =>
+      (this.searchQuery ? product.name.toLowerCase().includes(this.searchQuery.toLowerCase()) || product.code.toLowerCase().includes(this.searchQuery.toLowerCase()) : true) &&
+      (this.selectedTags.length > 0 ? this.selectedTags.every(tag => product.tag.includes(tag)) : true)
+    );
+    console.log('Filtered products:', this.filteredProducts); // 查看过滤后的产品列表
+  }
+
+  applySearch(event: Event): void {
+    const target = event.target as HTMLInputElement;
+    const query = target.value;
+    console.log('Search query received:', query); // 添加此行以检查输入值
+    this.searchQuery = query;
+    this.applyFilters();
   }
 }
