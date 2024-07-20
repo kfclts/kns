@@ -1,44 +1,64 @@
 <mat-sidenav-container fullscreen>
-  <mat-sidenav #sidenav mode="over">
+  <mat-sidenav #sidenav mode="push">
     <mat-nav-list (click)="sidenav.close()">
-      <a mat-list-item routerLink="">
-        <mat-icon>library_books</mat-icon>
-        <span>Courses</span>
+      <mat-expansion-panel (click)="$event.stopPropagation()" hideToggle>
+        <mat-expansion-panel-header (click)="$event.stopPropagation()">
+          <mat-panel-title>
+            <span class="entry">
+              <mat-icon>expand_more</mat-icon>
+              <span>Products</span>
+            </span>
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <a mat-list-item>Valve Balls</a>
+        <a mat-list-item>Sanitary Fittings</a>
+      </mat-expansion-panel>
+      <a mat-list-item routerLink="/about">
+        <span class="entry">
+          <mat-icon>account_circle</mat-icon>
+          <span>About Us</span>
+        </span>
       </a>
-      <a mat-list-item routerLink="about">
-        <mat-icon>question_answer</mat-icon>
-        <span>About</span>
-      </a>
-      <a mat-list-item routerLink="products">
-        <mat-icon>person_add</mat-icon>
-        <span>Register</span>
-      </a>
-      <a mat-list-item routerLink="contact">
-        <mat-icon>account_circle</mat-icon>
-        <span>Login</span>
+      <a mat-list-item routerLink="/contact">
+        <span class="entry">
+          <mat-icon>contact_support</mat-icon>
+          <span>Contact Us</span>
+        </span>
       </a>
     </mat-nav-list>
   </mat-sidenav>
 
   <mat-sidenav-content class="sidenav-content">
-    <mat-toolbar color="primary" class="fixed-toolbar">
+    <mat-toolbar class="fixed-toolbar tool-bar-color">
       <ng-container *ngIf="isMobileScreen">
         <button mat-icon-button (click)="sidenav.toggle()">
-          <mat-icon>menu</mat-icon>
+          <mat-icon class="green-text">menu</mat-icon>
         </button>
       </ng-container>
-      <a routerLink="/"><img src="kns-logo-bright@2x.png" alt="Logo" class="logo" [class.center-logo]="isMobileScreen"></a>
+      <a routerLink="/"
+        ><img
+          src="kns-logo-bright@2x.png"
+          class="logo"
+          [class.center-logo]="isMobileScreen"
+      /></a>
       <ng-container *ngIf="!isMobileScreen">
-        <a mat-button [matMenuTriggerFor]="dropdown">Products<mat-icon>expand_more</mat-icon></a>
+        <a mat-button [matMenuTriggerFor]="dropdown"
+          ><span class="green-text">Products</span
+          ><mat-icon class="green-text">expand_more</mat-icon></a
+        >
         <mat-menu #dropdown>
           <button mat-menu-item routerLink="/">Valve Balls</button>
-          <button mat-menu-item routerLink="/Products">Sanitary Fittings</button>
+          <button mat-menu-item routerLink="/products">
+            Sanitary Fittings
+          </button>
         </mat-menu>
         <a mat-button routerLink="/about">
-          <mat-icon>account_circle</mat-icon>About
+          <mat-icon class="green-text">account_circle</mat-icon
+          ><span class="green-text">About Us</span>
         </a>
         <a mat-button routerLink="/contact">
-          <mat-icon>contact_support</mat-icon>Contact
+          <mat-icon class="green-text">contact_support</mat-icon
+          ><span class="green-text">Contact Us</span>
         </a>
       </ng-container>
     </mat-toolbar>

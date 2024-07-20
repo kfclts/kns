@@ -10,13 +10,17 @@
 }
 
 .sidenav-content {
-  padding-top: 64px; /* Adjust this value based on the actual height of your toolbar */
-  padding-bottom: 64px; /* 添加底部内边距以确保底部内容可见 */
+  padding-top: 64px;
+  /* Adjust this value based on the actual height of your toolbar */
+  padding-bottom: 64px;
+  /* 添加底部内边距以确保底部内容可见 */
 }
 
 .mat-sidenav-content {
-  overflow-y: auto; /* 确保可以滚动 */
-  height: calc(100vh - 64px); /* 减去固定工具栏的高度，调整为实际视窗高度 */
+  overflow-y: auto;
+  /* 确保可以滚动 */
+  height: calc(100vh - 64px);
+  /* 减去固定工具栏的高度，调整为实际视窗高度 */
 }
 
 .fixed-toolbar {
@@ -24,5 +28,25 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000; /* High z-index to keep toolbar above other content */
+  z-index: 1000;
+  /* High z-index to keep toolbar above other content */
+}
+
+.tool-bar-color {
+  background-color: #89d3b3;
+}
+
+mat-sidenav {
+  padding-top: 3.5rem;
+
+  @media screen and (min-width: 600px) {
+    padding-top: 4rem;
+  }
+}
+
+.entry {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem;
 }

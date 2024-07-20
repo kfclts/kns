@@ -27,21 +27,17 @@ swiper-slide {
 .gray-text {
   color: #777; /* 设置文本颜色为深灰色 */
 }
-
-.black-text {
-  color: #000000;
-}
-
-.red-text {
-  color: #ff0000;
-}
-
 .font-size-35 {
   font-size: 35px;
 }
 
 .bold-blue {
   color: #34589f;
+  font-weight: bold;
+}
+
+.bold-green {
+  color: #09472c;
   font-weight: bold;
 }
 
@@ -78,4 +74,17 @@ swiper-slide .text {
     max-width: 80%;
     line-height: 1.3;
   }
+}
+
+
+.content {
+  font-family: 'Arial', sans-serif; /* 使用无衬线字体 */
+  line-height: 1.6; /* 增加行间距 */
+  font-size: 18px; /* 适合阅读的字体大小 */
+  /*text-align: justify;  两端对齐文本 */
+  padding: 20px; /* 增加内边距 */
+  margin: 20px auto; /* 上下保留20px间隔，左右居中 */
+  max-width: 1000px; /* 最大宽度，保持内容的可读性 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影以提升层次感 */
+  background-blend-mode: darken; /* 若背景图太亮，可使用此属性暗化背景 */
 }
