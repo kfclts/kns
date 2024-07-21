@@ -12,8 +12,10 @@
 - [ ] outline input border color
 - [ ] Finish Product Page
 - [ ] i11n
-- [ ] Enhance Product layout (response design)
-
+- [X] Enhance Product layout (response design)
+- [ ] Deploy application
+- [ ] Amazon Web Service
+- [ ] Bug: mat-chip:hober not working(which workable at 7/20 version)
 
 # KnsWoStandalone
 
