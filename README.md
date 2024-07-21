@@ -6,7 +6,7 @@
 - [X] Center the `<mat-card>` in the about components
 - [X] Bottom overflow
 - [X] Enrich Homepage
-- [ ] Bug: when press sidenav, valve ball or ... the side nav will not diappear automatically
+- [X] Bug: when press sidenav, valve ball or ... the side nav will not diappear automatically
 - [ ] Lazy Loading
 - [X] Default route
 - [ ] outline input border color
@@ -15,10 +15,11 @@
 - [X] Enhance Product layout (response design)
 - [ ] Deploy application
 - [ ] Amazon Web Service
-- [ ] Bug: mat-chip:hober not working(which workable at 7/20 version)
+- [ ] Bug: mat-chip:hover not working(which workable at 7/20 version)
 - [X] Feature: Enhance search and tag feature, with URL
-- [X] Feature: Revise Product category ex: <host>?search=sanitary-fittings => sanitary-fittings page
+- [X] Feature: Revise Product category ex: <host>?filter=sanitary-fittings => sanitary-fittings page
 - [ ] SEO
+- [ ] Bug: correct path with '?' will cause ERR_TOO_MANY_REDIRECTS, ex: /contact? => /contact?//////
 
 # KnsWoStandalone
 

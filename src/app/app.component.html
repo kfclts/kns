@@ -10,8 +10,8 @@
             </span>
           </mat-panel-title>
         </mat-expansion-panel-header>
-        <a mat-list-item routerLink="/valve-balls">Valve Balls</a>
-        <a mat-list-item [routerLink]="'/products'" [queryParams]="{filter: 'Tube Fittings'}">Sanitary Fittings</a>
+        <a mat-list-item routerLink="/valve-balls" (click)="sidenav.close()">Valve Balls</a>
+        <a mat-list-item [routerLink]="'/products'" [queryParams]="{filter: 'Tube Fittings'}" (click)="sidenav.close()">Sanitary Fittings</a>
       </mat-expansion-panel>
       <a mat-list-item routerLink="/about">
         <span class="entry">
