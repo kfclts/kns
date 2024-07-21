@@ -1,7 +1,8 @@
 <div class="search-bar">
   <mat-form-field appearance="outline">
     <mat-label>Search Code or Product Name</mat-label>
-    <input matInput placeholder="Type to search..." (input)="applySearch($event)">
+    <!-- <input matInput placeholder="Type to search..." (input)="applySearch($event)"> -->
+    <input matInput [value]="searchQuery" placeholder="Type to search..." (input)="applySearch($event)">
     <mat-icon matSuffix>search</mat-icon>
   </mat-form-field>
   <mat-chip-set>
@@ -9,7 +10,7 @@
       {{ tag }}
       <mat-icon matChipRemove>cancel</mat-icon>
     </mat-chip>
-  </mat-chip-set>
+  </mat-chip-set>  
 </div>
 <mat-divider></mat-divider>
 <div class="grid-container">
