@@ -17,7 +17,7 @@
 - [ ] Amazon Web Service
 - [ ] Bug: mat-chip:hober not working(which workable at 7/20 version)
 - [X] Feature: Enhance search and tag feature, with URL
-- [ ] Feature: Revise Product category ex: <host>?search=sanitary-fittings => sanitary-fittings page
+- [X] Feature: Revise Product category ex: <host>?search=sanitary-fittings => sanitary-fittings page
 - [ ] SEO
 
 # KnsWoStandalone

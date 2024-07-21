@@ -18,8 +18,6 @@ import { ContactComponent } from './contact/contact.component';
 import { routes } from './app.route';
 import { MatCardModule } from '@angular/material/card';
 import { MatExpansionModule } from '@angular/material/expansion';
-import { ValveBallsComponent } from './products/valve-balls/valve-balls.component';
-import { SanitaryFittingsComponent } from './products/sanitary-fittings/sanitary-fittings.component';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
@@ -30,9 +28,7 @@ import { MatInputModule } from '@angular/material/input';
     ProductsComponent,
     AboutComponent,
     HomeComponent,
-    ContactComponent,
-    ValveBallsComponent,
-    SanitaryFittingsComponent
+    ContactComponent
   ],
   imports: [
     BrowserModule,

@@ -11,7 +11,7 @@
           </mat-panel-title>
         </mat-expansion-panel-header>
         <a mat-list-item routerLink="/valve-balls">Valve Balls</a>
-        <a mat-list-item routerLink="/sanitary-fittings">Sanitary Fittings</a>
+        <a mat-list-item [routerLink]="'/products'" [queryParams]="{filter: 'Tube Fittings'}">Sanitary Fittings</a>
       </mat-expansion-panel>
       <a mat-list-item routerLink="/about">
         <span class="entry">
@@ -48,7 +48,7 @@
         >
         <mat-menu #dropdown>
           <button mat-menu-item routerLink="/valve-balls">Valve Balls</button>
-          <button mat-menu-item routerLink="/sanitary-fittings">
+          <button mat-menu-item [routerLink]="'/products'" [queryParams]="{filter: 'Tube Fittings'}">
             Sanitary Fittings
           </button>
         </mat-menu>
