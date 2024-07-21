@@ -10,17 +10,17 @@ export const routes: Routes = [
     component: HomeComponent,
   },
   {
-    path: 'products',
+    path: 'product',
     component: ProductsComponent,
   },
   {
-    path: 'about',
+    path: 'about-us',
     component: AboutComponent,
   },
   {
-    path: 'contact',
+    path: 'contact-us',
     component: ContactComponent,
   },
   // 通配符路由，用于捕获所有未定义的路由请求，并重定向到根路径
-  { path: '**', redirectTo: '' },
+  { path: '**', redirectTo: '/' },
 ];
