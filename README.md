@@ -8,7 +8,7 @@
 - [X] Enrich Homepage
 - [ ] Bug: when press sidenav, valve ball or ... the side nav will not diappear automatically
 - [ ] Lazy Loading
-- [ ] Default route
+- [X] Default route
 - [ ] outline input border color
 - [ ] Finish Product Page
 - [ ] i11n
@@ -17,6 +17,8 @@
 - [ ] Amazon Web Service
 - [ ] Bug: mat-chip:hober not working(which workable at 7/20 version)
 - [X] Feature: Enhance search and tag feature, with URL
+- [ ] Feature: Revise Product category ex: <host>?search=sanitary-fittings => sanitary-fittings page
+- [ ] SEO
 
 # KnsWoStandalone
 
