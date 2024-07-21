@@ -1,7 +1,8 @@
 <div class="search-bar">
-  <mat-form-field appearance="fill">
-    <mat-label>Search Products</mat-label>
+  <mat-form-field appearance="outline">
+    <mat-label>Search Code or Product Name</mat-label>
     <input matInput placeholder="Type to search..." (input)="applySearch($event)">
+    <mat-icon matSuffix>search</mat-icon>
   </mat-form-field>
   <mat-chip-set>
     <mat-chip class="main-color" *ngFor="let tag of selectedTags" removable (removed)="removeTag(tag)">
@@ -10,7 +11,7 @@
     </mat-chip>
   </mat-chip-set>
 </div>
-
+<mat-divider></mat-divider>
 <div class="grid-container">
   <div *ngFor="let product of filteredProducts" class="grid-item">
     <mat-card>

@@ -60,10 +60,22 @@ mat-chip:hover {
   cursor: pointer!important; 
 }
 
-.search-bar {
-  margin-bottom: 20px;
-}
-
 .mat-chip {
   margin: 4px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 居中对齐 */
+}
+
+mat-form-field {
+  padding-top: 20px;
+  width:80%; /* 设置宽度为80% */
+}
+
+mat-label {
+  color: #09472c;
 }

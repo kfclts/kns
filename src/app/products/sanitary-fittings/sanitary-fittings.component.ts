@@ -40,13 +40,13 @@ export class SanitaryFittingsComponent implements OnInit {
       (this.searchQuery ? product.name.toLowerCase().includes(this.searchQuery.toLowerCase()) || product.code.toLowerCase().includes(this.searchQuery.toLowerCase()) : true) &&
       (this.selectedTags.length > 0 ? this.selectedTags.every(tag => product.tag.includes(tag)) : true)
     );
-    console.log('Filtered products:', this.filteredProducts); // 查看过滤后的产品列表
+    // console.log('Filtered products:', this.filteredProducts); // 查看过滤后的产品列表
   }
 
   applySearch(event: Event): void {
     const target = event.target as HTMLInputElement;
     const query = target.value;
-    console.log('Search query received:', query); // 添加此行以检查输入值
+    // console.log('Search query received:', query); // 添加此行以检查输入值
     this.searchQuery = query;
     this.applyFilters();
   }
