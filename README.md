@@ -14,7 +14,8 @@
 - [X] Bug: correct path with '?' will cause ERR_TOO_MANY_REDIRECTS, ex: /contact? => /contact?////// (Seems System problem because even the application not start, the symptom still exist)
 - [X] Task: Finish Product Page
 - [X] Feature: Revise `tubeSize` to `dimension`
-- [ ] Task: Remove duplicate products, add tags only
+- [X] Task: Remove duplicate products, add tags only
+- [ ] Bug: `LJ2002S` Duplicate 
 - [ ] Feature: Some Product has spec, should appear to veiw the spec
 - [ ] Bug: Some product has higher picture dimension, cannot to view all picture
 - [ ] Feature: i18n

@@ -28,6 +28,8 @@ export class ProductsComponent implements OnInit {
       this.selectedTags = params['filter'] ? params['filter'].split(',') : [];  // 确保使用 'filter' 参数
       this.applyFilters();
     });
+    const duplicates = this.productService.findDuplicateCodes();
+    console.log('Duplicate Product Codes:', duplicates);
   }
 
   filterByTag(tag: string): void {
