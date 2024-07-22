@@ -41,7 +41,6 @@ export class ProductsComponent implements OnInit {
   }
 
   removeTag(tag: string): void {
-    console.log("checked!")
     const index = this.selectedTags.indexOf(tag);
     if (index >= 0) {
       this.selectedTags.splice(index, 1);  // 从选中标签数组中移除标签
@@ -79,7 +78,6 @@ export class ProductsComponent implements OnInit {
     params['search'] = this.searchQuery || null;
     // 修改这部分代码来确保当标签数组为空时，'filter' 被从 URL 中移除
     if (this.selectedTags.length > 0) {
-      console.log("updateQueryParams filter");
       params['filter'] = this.selectedTags.join(',');  // 当标签存在时设置 'filter'
     } else {
       params['filter'] = null;  // 当没有标签时明确移除 'filter'

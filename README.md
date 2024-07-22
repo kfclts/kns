@@ -12,8 +12,9 @@
 - [X] Feature: Enhance search and tag feature, with URL
 - [X] Feature: Revise Product category ex: <host>?filter=sanitary-fittings => sanitary-fittings page
 - [X] Bug: correct path with '?' will cause ERR_TOO_MANY_REDIRECTS, ex: /contact? => /contact?////// (Seems System problem because even the application not start, the symptom still exist)
-- [ ] Task: Finish Product Page
+- [X] Task: Finish Product Page
 - [X] Feature: Revise `tubeSize` to `dimension`
+- [ ] Task: Remove duplicate products, add tags only
 - [ ] Feature: Some Product has spec, should appear to veiw the spec
 - [ ] Bug: Some product has higher picture dimension, cannot to view all picture
 - [ ] Feature: i18n

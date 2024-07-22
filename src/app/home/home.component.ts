@@ -19,8 +19,4 @@ export class HomeComponent {
   ngAfterViewInit(): void {
     this.swiper = this.swiperRef?.nativeElement.swiper;
   }
-
-  // onActiveIndexChange() {
-  //   console.log(this.swiper?.activeIndex);
-  // }
 }
