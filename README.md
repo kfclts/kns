@@ -15,6 +15,7 @@
 - [X] Task: Finish Product Page
 - [X] Feature: Revise `tubeSize` to `dimension`
 - [X] Task: Remove duplicate products, add tags only
+- [X] Feature: Revise Logo  
 - [ ] Bug: `LJ2002S` Duplicate 
 - [ ] Feature: Some Product has spec, should appear to veiw the spec
 - [ ] Bug: Some product has higher picture dimension, cannot to view all picture
