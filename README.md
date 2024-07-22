@@ -13,8 +13,9 @@
 - [X] Feature: Revise Product category ex: <host>?filter=sanitary-fittings => sanitary-fittings page
 - [X] Bug: correct path with '?' will cause ERR_TOO_MANY_REDIRECTS, ex: /contact? => /contact?////// (Seems System problem because even the application not start, the symptom still exist)
 - [ ] Task: Finish Product Page
-- [ ] Feature: Revise `tubeSize` to `spec`
+- [X] Feature: Revise `tubeSize` to `dimension`
 - [ ] Feature: Some Product has spec, should appear to veiw the spec
+- [ ] Bug: Some product has higher picture dimension, cannot to view all picture
 - [ ] Feature: i18n
 - [ ] Feature: center the building figure of the contact-us mat-card
 - [ ] Task: Amazon Web Service

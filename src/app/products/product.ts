@@ -1,7 +1,8 @@
 export interface Product {
   code: string;
   name: string;
-  tubeSize: string;
+  spec: string;
+  dimensions: string
   photo: string;
   tag: string[];
 }
