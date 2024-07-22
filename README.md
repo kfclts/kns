@@ -11,7 +11,7 @@
 - [X] Default route
 - [ ] outline input border color
 - [ ] Finish Product Page
-- [ ] i11n
+- [ ] i18n
 - [X] Enhance Product layout (response design)
 - [ ] Deploy application
 - [ ] Amazon Web Service
@@ -19,7 +19,9 @@
 - [X] Feature: Enhance search and tag feature, with URL
 - [X] Feature: Revise Product category ex: <host>?filter=sanitary-fittings => sanitary-fittings page
 - [ ] SEO
-- [ ] Bug: correct path with '?' will cause ERR_TOO_MANY_REDIRECTS, ex: /contact? => /contact?//////
+- [X] Bug: correct path with '?' will cause ERR_TOO_MANY_REDIRECTS, ex: /contact? => /contact?////// (Seems System problem because even the application not start, the symptom still exist)
+- [ ] Feature: center the building figure of the contact-us mat-card
+- [ ] Feature: Dark Mode
 
 # KnsWoStandalone
 
