@@ -457,6 +457,199 @@ export class ProductService {
 
 
 
+//=============== Glass Clamp and Holder ===============
+
+    {
+      code: 'LJ1523B',
+      name: 'Glass Clip, Type 1',
+      tubeSize: 'R 1 1/2"x 8-12 mm',
+      photo: "products/LJ1523B.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJ2023B',
+      name: 'Glass Clip, Type 1',
+      tubeSize: 'R 2"x 8-12 mm',
+      photo: "products/LJ1523B.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJS71R381',
+      name: 'Glass Clamp, Square Type',
+      tubeSize: '45 x 49 x 27 xR 38.1 x 6~10',
+      photo: "products/LJS71R381.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJS71R424',
+      name: 'Glass Clamp, Square Type',
+      tubeSize: '45 x 49 x 27 x R 42.4 x 6~10',
+      photo: "products/LJS71R381.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJS71R508',
+      name: 'Glass Clamp, Square Type',
+      tubeSize: '45 x 49 x 27 x R 50.8 x 6~10',
+      photo: "products/LJS71R381.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJS72F',
+      name: 'Glass Clamp, Square Type',
+      tubeSize: '45 x 45 x 27 x (FLAT) x 6~10 ',
+      photo: "products/LJS71R381.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJS73R381',
+      name: 'Glass Clamp, Square Type',
+      tubeSize: '55 x 60 x 33 x R 38.1 x 8~12',
+      photo: "products/LJS71R381.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJS73R424',
+      name: 'Glass Clamp, Square Type',
+      tubeSize: '55 x 60 x 33 x R 42.4 x 8~12',
+      photo: "products/LJS71R381.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJS73R508',
+      name: 'Glass Clamp, Square Type',
+      tubeSize: '55 x 60 x 33 x R 50.8 x 8~12',
+      photo: "products/LJS71R381.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJS74F',
+      name: 'Glass Clamp, Square Type',
+      tubeSize: '55 x 55 x 33 x (FLAT) x 8~12 ',
+      photo: "products/LJS71R381.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJD75R381',
+      name: 'Glass Clamp, D Type',
+      tubeSize: '50 x 53 x 33 x R 38.1 x 8~12',
+      photo: "products/LJD75R381.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJD75R424',
+      name: 'Glass Clamp, D Type',
+      tubeSize: '50 x 53 x 33 x R 42.4 x 8~12',
+      photo: "products/LJD75R381.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJD75R508',
+      name: 'Glass Clamp, D Type',
+      tubeSize: '50 x 53 x 33 x R 50.8 x 8~12',
+      photo: "products/LJD75R381.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJD76F',
+      name: 'Glass Clamp, D Type',
+      tubeSize: '65 x 60 x 33 (FLAT) x 8~12',
+      photo: "products/LJD75R381.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJD81R381',
+      name: 'Glass Clamp, D Type',
+      tubeSize: '40 x 53 x 23 x R 38.1 x 6~10',
+      photo: "products/LJD75R381.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJD81R424',
+      name: 'Glass Clamp, D Type',
+      tubeSize: '40 x 53 x 23 x R 42.4 x 6~10',
+      photo: "products/LJD75R381.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJD81R508',
+      name: 'Glass Clamp, D Type',
+      tubeSize: '40 x 53 x 23 x R 50.8 x 6~10',
+      photo: "products/LJD75R381.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJD82F',
+      name: 'Glass Clamp, D Type',
+      tubeSize: '40 x 50 x 23 x (FLAT) x 6~10',
+      photo: "products/LJD75R381.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJD83R381',
+      name: 'Glass Clamp, D Type',
+      tubeSize: '45 x 66 x 27 x R 38.1 x 8~12',
+      photo: "products/LJD75R381.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJD83R424',
+      name: 'Glass Clamp, D Type',
+      tubeSize: '45 x 66 x 27 x R 42.4 x 8~12',
+      photo: "products/LJD75R381.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJD83R508',
+      name: 'Glass Clamp, D Type',
+      tubeSize: '45 x 66 x 27 x R 50.8 x 8~12',
+      photo: "products/LJD75R381.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJD84F',
+      name: 'Glass Clamp, D Type',
+      tubeSize: '45 x 62 x 27 (FLAT) x 8~12',
+      photo: "products/LJD75R381.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJB90-SH',
+      name: 'Glass Clip, Type 2',
+      tubeSize: '(90 x 50 x 55) x 10~12',
+      photo: "products/LJB90-SH.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJB90G-SH',
+      name: 'Glass Clip Type 3',
+      tubeSize: '(90 x 58 x 55) x 10~12',
+      photo: "products/LJB90G-SH.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJ01SPG',
+      name: 'Glass Holder Type 1',
+      tubeSize: '10~12 mm',
+      photo: "products/LJ01SPG.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJ03SPG',
+      name: 'Glass Holder Type 2',
+      tubeSize: '10~12 mm',
+      photo: "products/LJ03SPG.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+    {
+      code: 'LJ04SPG',
+      name: 'Glass Holder Type 3',
+      tubeSize: '10~12 mm',
+      photo: "products/LJ04SPG.png",
+      tag: ["Glass Clamp and Holder", "Tube Fittings"]
+    },
+
+
     // 更多产品
   ];
 

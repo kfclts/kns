@@ -7,21 +7,24 @@
 - [X] Bottom overflow
 - [X] Enrich Homepage
 - [X] Bug: when press sidenav, valve ball or ... the side nav will not diappear automatically
-- [ ] Lazy Loading
-- [X] Default route
-- [ ] outline input border color
-- [ ] Finish Product Page
-- [ ] i18n
 - [X] Enhance Product layout (response design)
-- [ ] Deploy application
-- [ ] Amazon Web Service
-- [ ] Bug: mat-chip:hover not working(which workable at 7/20 version)
+- [X] Default route
 - [X] Feature: Enhance search and tag feature, with URL
 - [X] Feature: Revise Product category ex: <host>?filter=sanitary-fittings => sanitary-fittings page
-- [ ] SEO
 - [X] Bug: correct path with '?' will cause ERR_TOO_MANY_REDIRECTS, ex: /contact? => /contact?////// (Seems System problem because even the application not start, the symptom still exist)
+- [ ] Task: Finish Product Page
+- [ ] Feature: Revise `tubeSize` to `spec`
+- [ ] Feature: Some Product has spec, should appear to veiw the spec
+- [ ] Feature: i18n
 - [ ] Feature: center the building figure of the contact-us mat-card
+- [ ] Task: Amazon Web Service
+- [ ] Task: Amazon Web CDN
+- [ ] Task: Deploy application
+- [ ] Feature: Revise outline input border color to `main-color`
+- [ ] Bug: mat-chip:hover not working(which workable at 7/20 version)
+- [ ] Feature: SEO
 - [ ] Feature: Dark Mode
+- [ ] Feature: Lazy Loading
 
 # KnsWoStandalone
 
