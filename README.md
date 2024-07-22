@@ -1,14 +1,14 @@
 # TODO
-- [X] Revise the Picture Size
-- [X] Add Product Page
-- [X] Homepage (swiper w/ Parallax?)
-- [X] scroll down do not hide toolbar
-- [X] Center the `<mat-card>` in the about components
-- [X] Bottom overflow
-- [X] Enrich Homepage
+- [X] Task:Revise the Picture Size
+- [X] Task: Add Product Page
+- [X] Feature: Homepage (swiper w/ Parallax?)
+- [X] Task: Scroll down do not hide toolbar
+- [X] Task: Center the `<mat-card>` in the about components
+- [X] Task: Bottom overflow
+- [X] Feature: Enrich Homepage
 - [X] Bug: when press sidenav, valve ball or ... the side nav will not diappear automatically
-- [X] Enhance Product layout (response design)
-- [X] Default route
+- [X] Task: Enhance Product layout (response design)
+- [X] Task:Default route
 - [X] Feature: Enhance search and tag feature, with URL
 - [X] Feature: Revise Product category ex: <host>?filter=sanitary-fittings => sanitary-fittings page
 - [X] Bug: correct path with '?' will cause ERR_TOO_MANY_REDIRECTS, ex: /contact? => /contact?////// (Seems System problem because even the application not start, the symptom still exist)
