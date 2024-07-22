@@ -517,7 +517,7 @@ export class ProductService {
       photo: "products/LJ1519U.png",
       tag: ["End Cap", "Tube Fittings"]
     },
-//=============== Glass Clamp and Holder ===============
+    //=============== Glass Clamp and Holder ===============
     {
       code: 'LJ1523B',
       name: 'Glass Clip, Type 1',
@@ -734,7 +734,7 @@ export class ProductService {
       photo: "products/LJ04SPG.png",
       tag: ["Glass Clamp and Holder", "Tube Fittings"]
     },
-//=============== Support ===============
+    //=============== Support ===============
     {
       code: 'LJ15602',
       name: 'Rail Support Type - 1',
@@ -983,11 +983,186 @@ export class ProductService {
       photo: 'products/LJ203BK.png',
       tag: ['Support', 'Tube Fittings'],
     },
-//=============== Square Type ===============
-//=============== Perpendicular Joiner ===============
-//=============== Rail Post ===============
-//=============== Grap Bar ===============
-    // 更多产品
+    //=============== Square Type ===============
+    {
+      code: 'LJ2019S',
+      name: 'End Cap "Flat"',
+      dimensions: 'Tube Size',
+      spec: '2" x 2"',
+      photo: 'products/LJ2019S.png',
+      tag: ['Square Type', 'Tube Fittings'],
+    },
+    {
+      code: 'LJ2004S',
+      name: 'Flush Joiner "In-Line"',
+      dimensions: 'Tube Size',
+      spec: '2" x 2"',
+      photo: 'products/LJ2004S.png',
+      tag: ['Square Type', 'Tube Fittings'],
+    },
+    {
+      code: 'LJ2002S',
+      name: 'Flush Joiner (90°)',
+      dimensions: 'Tube Size',
+      spec: '2"x 2"',
+      photo: 'products/LJ2002S.png',
+      tag: ['Square Type', 'Tube Fittings'],
+    },
+    {
+      code: 'LJ2005S',
+      name: 'Flush Joiner "Tee"',
+      dimensions: 'Tube Size',
+      spec: '2"x 2"',
+      photo: 'products/LJ2005S.png',
+      tag: ['Square Type', 'Tube Fittings'],
+    },
+    {
+      code: 'LJ2006S',
+      name: 'Flush Joiner "90° Tee"',
+      dimensions: 'Tube Size',
+      spec: '2"x 2"',
+      photo: 'products/LJ2006S.png',
+      tag: ['Square Type', 'Tube Fittings'],
+    },
+    {
+      code: 'LJ2014S',
+      name: 'Oblong Base Plate Flange',
+      dimensions: 'Tube Size',
+      spec: '2"x 2"',
+      photo: 'products/LJ2014S.png',
+      tag: ['Square Type', 'Tube Fittings'],
+    },
+    {
+      code: 'LJ2016S',
+      name: 'Square Base Plate / Flange',
+      dimensions: 'Tube Size',
+      spec: '2"x 2"',
+      photo: 'products/LJ2016S.png',
+      tag: ['Square Type', 'Tube Fittings'],
+    },
+    {
+      code: 'LJ2015S',
+      name: 'Wall Stop Flange 37°',
+      dimensions: 'Tube Size',
+      spec: '2"x 2"',
+      photo: 'products/LJ2015S.png',
+      tag: ['Square Type', 'Tube Fittings'],
+    },
+    {
+      code: 'LJ315APS',
+      name: 'Adjustable Rail Support "Flat Top"',
+      dimensions: 'Tube Size x ØR',
+      spec: '2" x 2" x FLAT',
+      photo: 'products/LJ315APS.png',
+      tag: ['Square Type', 'Tube Fittings'],
+    },
+    {
+      code: 'LJ2020S',
+      name: 'Post Reducer Square "Round In-Line"',
+      dimensions: 'Tube Size x ØR',
+      spec: '2" x 2" x 2"',
+      photo: 'products/LJ2020S.png',
+      tag: ['Square Type', 'Tube Fittings'],
+    },
+    {
+      code: 'LJ2021S',
+      name: 'Post Reducer Square "Round Adjustable"',
+      dimensions: 'Tube Size x ØR',
+      spec: '2" x 2" x 2"',
+      photo: 'products/LJ2021S.png',
+      tag: ['Square Type', 'Tube Fittings'],
+    },
+    {
+      code: 'LJ2022S',
+      name: 'Post Rreducer Square "Round 90° Corner"',
+      dimensions: 'Tube Size x ØR',
+      spec: '2" x 2" x 2"',
+      photo: 'products/LJ2022S.png',
+      tag: ['Square Type', 'Tube Fittings'],
+    },
+    //=============== Perpendicular Joiner ===============
+    {
+      code: 'LJ20314A-2',
+      name: 'Perpendicular Joiner "37° External Cap"',
+      dimensions: 'Tube Size x ØR',
+      spec: '',
+      photo: 'products/LJ20314A-2.png',
+      tag: ['Perpendicular Joiner', 'Tube Fittings'],
+    },
+    {
+      code: 'LJ20313A-2',
+      name: 'Perpendicular Joiner "External Cap"',
+      dimensions: 'Tube Size x ØR',
+      spec: '2" x 2"',
+      photo: 'products/LJ20313A-2.png',
+      tag: ['Perpendicular Joiner', 'Tube Fittings'],
+    },
+    {
+      code: 'LJ1527A - 1 1/2',
+      name: 'Perpendicular Joiner "Flush Fitting"',
+      dimensions: 'Tube Size x ØR',
+      spec: '1 1/2" x 1 1/2"',
+      photo: 'products/LJ1527A.png',
+      tag: ['Perpendicular Joiner', 'Tube Fittings'],
+    },
+    {
+      code: 'LJ1527A - 2',
+      name: 'Perpendicular Joiner "Flush Fitting"',
+      dimensions: 'Tube Size x ØR',
+      spec: '1 1/2" x 2"',
+      photo: 'products/LJ1527A.png',
+      tag: ['Perpendicular Joiner', 'Tube Fittings'],
+    },
+    {
+      code: 'LJ2027A - 2',
+      name: 'Perpendicular Joiner "Flush Fitting"',
+      dimensions: 'Tube Size x ØR',
+      spec: '2" x 2"',
+      photo: 'products/LJ1527A.png',
+      tag: ['Perpendicular Joiner', 'Tube Fittings'],
+    },
+    //=============== Rail Post ===============
+    {
+      code: 'LJ201BL',
+      name: 'Rail post Type 1',
+      dimensions: 'Glass (mm)',
+      spec: '10~12 mm',
+      photo: 'products/LJ201BL.png',
+      tag: ['Rail Post', 'Tube Fittings'],
+    },
+    {
+      code: 'LJ307BL',
+      name: 'Rail post Type 2',
+      dimensions: 'Glass (mm)',
+      spec: '10~12 mm',
+      photo: 'products/LJ307BL.png',
+      tag: ['Rail Post', 'Tube Fittings'],
+    },
+    //=============== Grap Bar ===============
+    {
+      code: 'LJ1201GB',
+      name: 'Grab Bar',
+      dimensions: 'Tube Size x Length',
+      spec: '31.8 x 600 mm',
+      photo: 'products/LJ1201GB.png',
+      tag: ['Grab Bar', 'Tube Fittings'],
+    },
+    {
+      code: 'LJ1501GB',
+      name: 'Grab Bar',
+      dimensions: 'Tube Size x Length',
+      spec: '38.1 x 600 mm',
+      photo: 'products/LJ1201GB.png',
+      tag: ['Grab Bar', 'Tube Fittings'],
+    },
+    {
+      code: 'LJ1201FGB',
+      name: 'Folding Grab bar',
+      dimensions: 'Tube Size x Length',
+      spec: '31.8 x 800 mm',
+      photo: 'products/LJ1201FGB.png',
+      tag: ['Grab Bar', 'Tube Fittings'],
+    },
   ];
 
   constructor() { }
