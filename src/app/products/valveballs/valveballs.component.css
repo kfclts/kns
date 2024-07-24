@@ -1,0 +1,67 @@
+.image-grid img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-grid img:hover {
+  transform: scale(1.05);
+}
+
+.image-grid {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  /* 調整列寬 */
+  gap: 16px;
+  /* 格子間距 */
+}
+
+.image-container {
+  height: 200px;
+  /* 設定固定高度 */
+  display: flex;
+  align-items: center;
+  /* 垂直居中 */
+  justify-content: center;
+  /* 水平居中 */
+  border: 1px solid #ccc;
+  /* 添加邊框 */
+  border-radius: 10px;
+  /* 圓角邊框 */
+  overflow: hidden;
+  /* 隐藏超出部分 */
+}
+
+.image-container img {
+  max-height: 100%;
+  /* 確保圖片不超過容器高度 */
+  max-width: 100%;
+  /* 確保圖片不超過容器寬度 */
+  object-fit: contain;
+  /* 圖片等比例缩放 */
+}
+
+.valve-balls-page {
+  text-align: center; /* 讓整個頁面的文字居中 */
+  padding: 20px; /* 增加一些內邊距 */
+  font-family: Arial, sans-serif; /* 更現代的字體 */
+  color: #333; /* 深色文字，增加可讀性 */
+}
+
+.valve-balls-page p {
+  font-size: 16px; /* 適當的字體大小 */
+  line-height: 1.6; /* 增加行間距，使得閱讀更舒適 */
+  max-width: 800px; /* 最大寬度限制，以增強閱讀體驗 */
+  margin: 0 auto 20px; /* 水平居中並且在段落下方添加間距 */
+}
+
+.valve-balls-page a {
+  color: #007BFF; /* 亮藍色連結 */
+  text-decoration: none; /* 去除下劃線 */
+}
+
+.valve-balls-page a:hover {
+  text-decoration: underline; /* 滑鼠悬停時添加下劃線 */
+}

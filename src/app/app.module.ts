@@ -22,6 +22,7 @@ import { MatChipsModule } from '@angular/material/chips';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { ValveballsComponent } from './products/valveballs/valveballs.component';
+import { ImagePopupComponent } from './products/valveballs/imagepopup/imagepopup.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ValveballsComponent } from './products/valveballs/valveballs.component'
     AboutComponent,
     HomeComponent,
     ContactComponent,
-    ValveballsComponent
+    ValveballsComponent,
+    ImagePopupComponent
   ],
   imports: [
     BrowserModule,

@@ -1,1 +1,22 @@
-<p>valveball works!</p>
+<div class="valve-balls-page">
+  <p>
+    As outlined in our company profile, we specialize in providing
+    high-precision customizations of valve balls. Please refer to our success
+    stories below for examples of our capabilities.
+  </p>
+  <p>
+    If you have any requirements, please
+    <a href="/contact-us">contact us directly</a>.
+  </p>
+
+  <!-- 圖片網格 -->
+  <div class="image-grid">
+    <div
+      *ngFor="let image of imageList"
+      class="image-container"
+      (click)="openImagePopup(image.src)"
+    >
+      <img [src]="image.src" [alt]="image.alt" />
+    </div>
+  </div>
+</div>

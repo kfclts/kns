@@ -1,0 +1,13 @@
+/* image-popup.component.css */
+.image-popup img {
+    width: 100%;
+    max-width: 90vw;
+    max-height: 80vh;
+  }
+  
+  .custom-dialog-container .mat-dialog-container {
+    background: transparent;
+    box-shadow: none;
+    overflow: hidden;
+  }
+  
