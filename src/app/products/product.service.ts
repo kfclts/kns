@@ -698,7 +698,7 @@ export class ProductService {
       tag: ['Flush Joiner', 'Flange', 'Tube Fittings'],
     },
     {
-      code: 'LJ2002S',
+      code: 'LJ2002',
       name: 'Square Base Plate',
       dimensions: 'Tube Size',
       spec: '2"',
